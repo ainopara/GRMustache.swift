@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "GRMustache.swift-feature-swift4",
+    name: "Mustache",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "GRMustache.swift-feature-swift4",
-            targets: ["GRMustache.swift-feature-swift4"]),
+            name: "Mustache",
+            targets: ["Mustache"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,10 +19,10 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "GRMustache.swift-feature-swift4",
+            name: "Mustache",
             dependencies: []),
         .testTarget(
-            name: "GRMustache.swift-feature-swift4Tests",
-            dependencies: ["GRMustache.swift-feature-swift4"]),
+            name: "MustacheTests",
+            dependencies: ["Mustache"]),
     ]
 )

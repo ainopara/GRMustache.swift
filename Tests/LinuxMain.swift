@@ -1,7 +1,7 @@
 import XCTest
 
-import GRMustache_swift_feature_swift4Tests
+import MustacheTests
 
 var tests = [XCTestCaseEntry]()
-tests += GRMustache_swift_feature_swift4Tests.allTests()
+tests += MustacheTests.allTests()
 XCTMain(tests)
